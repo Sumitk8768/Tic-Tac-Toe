@@ -24,7 +24,7 @@ boxes.forEach((box) => {
         if(turn0){ //player0
             box.innerText = "O";
             turn0 = false;
-            box.style.color = "green";
+            box.style.color = "blue";
         }
         else{ //playerX
             box.innerText = "X";
